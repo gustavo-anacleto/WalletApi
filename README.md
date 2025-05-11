@@ -75,6 +75,16 @@ Nesta seção vou elucidar as principais regras de negócio da aplicação
 
 <a id="como-rodar-o-projeto"></a>
 ## 🚀 Como rodar o projeto
+Requisitos:
+  
+  Ter o docker instalado na maquina
+
+Passo a passo:
+
+1. Clonar repositório
+2. Abrir um terminal na pasta `PASTA_PESSOAL/WalletApi/WalletApi`
+3. Executar o comando `docker-compose up -d`
+  
 
 
 
