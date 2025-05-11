@@ -76,7 +76,7 @@ Nesta seção vou elucidar as principais regras de negócio da aplicação
 - Apenas usuários administradores podem listar todos os usuários da aplicação
 
 - Todo usuário inicialmente cadastrado, para a massa de testes, tem a senha de login
-como o nome que está antes do @ no email, exemplo o usuário  email: **admin@provider.com** senha: **admin**
+como o nome que está antes do @ no email, exemplo: usuário **admin@provider.com** senha: **admin**
   
 <a id="como-rodar-o-projeto"></a>
 ## 🚀 Como rodar o projeto
