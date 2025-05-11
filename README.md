@@ -14,7 +14,7 @@
   domínios, aplicando esse conceito na divisão dos arquivos. A imagem abaixo é para demonstrar os principais
   domínios que mapeei.
 
-![image](https://github.com/user-attachments/assets/42deae2c-2745-4290-a0db-01221b1e195d)
+![image](https://github.com/user-attachments/assets/187380f1-372f-4db3-8783-3befa890d815)
 
 Essa é uma representa a estrutura de pastas seguindo esse viés 
 ```text
@@ -39,7 +39,7 @@ Src/
 O domínio da minha aplicação é composto por 3 entidades **User**, **Wallet** e **Transaction**
 A imagem abaixo representa o relacionamento entre as entidades
 
-![image](https://github.com/user-attachments/assets/ab3ce5b3-8570-45dd-a10d-ffb4897087b5)
+![image](https://github.com/user-attachments/assets/bb230431-063d-4856-af6d-72b0a33a4ff3)
 
 <a id="tecnologias"></a>
 ## 🛠️ Tecnologias
