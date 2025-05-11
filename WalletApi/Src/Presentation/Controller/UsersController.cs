@@ -15,6 +15,13 @@ public class UsersController(UserService service) : ControllerBase
     {
         return Ok(await service.Longin(dto));
     }
+    
+    [Authorize(Roles = "ADMIN")]
+    [HttpGet("")]
+    public async Task<ActionResult<List<UserListDto>>> GetAll()
+    {
+        return Ok(await service.FindAll());
+    }
 
     [Authorize(Roles = "ADMIN")]
     [HttpPost("register")]
@@ -23,4 +30,5 @@ public class UsersController(UserService service) : ControllerBase
         await service.CreateUser(dto);
         return Created();
     }
+    
 }

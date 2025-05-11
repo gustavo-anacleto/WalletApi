@@ -76,6 +76,12 @@ public class UserService(
             throw;
         }
     }
+    
+    public async Task<List<UserListDto>> FindAll()
+    {
+        var users = await context.Users.Include(u => u.Wallet).ToListAsync();
+        return mapper.Map<List<UserListDto>>(users);
+    }
 
     private async Task CreateKeycloakUser(UserCreateDto dto)
     {

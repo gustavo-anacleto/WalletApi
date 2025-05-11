@@ -20,5 +20,9 @@ public class UserMapper : Profile
                     }
                 }))
             .ForMember(ku => ku.Attributes, opt => opt.MapFrom(src => src.Name));
+       
+        CreateMap<User, UserListDto>()
+            .ForMember(u => u.Balance, opt => opt
+                .MapFrom(src => src.Wallet.Balance));
     }
 }
