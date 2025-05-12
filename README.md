@@ -77,6 +77,10 @@ Nesta seção vou elucidar as principais regras de negócio da aplicação
 
 - Todo usuário inicialmente cadastrado, para a massa de testes, tem a senha de login
 como o nome que está antes do @ no email, exemplo: usuário **admin@provider.com** senha: **admin**
+
+- Quando um usuário é cadastrado na aplicação, as suas informações de Nome, Email e Id são salvas na base de dados da aplicação.
+  E esse usuário terá um registro espelhado no Keycloak, porém o provider ficará responsável por gerenciar as informação de
+  Password, Groups e Roles. 
   
 <a id="como-rodar-o-projeto"></a>
 ## 🚀 Como rodar o projeto
