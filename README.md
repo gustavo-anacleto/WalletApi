@@ -89,7 +89,12 @@ Passo a passo:
 1. Clonar repositório
 2. Abrir um terminal na pasta `PASTA_PESSOAL/WalletApi/WalletApi`
 3. Executar o comando `docker-compose up -d`
-  
+4. Após executar todos os comandos espere uns 40s para que o keycloak possa se configurar totalmente
+5. Por fim, basta logar com o usuário email: **admin@provider.com** senha: **admin** e realizar as operações
 
+<a id="pontos-de-melhoria"></a>
+## 🔧 Pontos de melhoria
+- Criar testes automatizados com xUnit
+- Melhorar o retorna dos erros na response dos enpoints
 
 
